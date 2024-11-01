@@ -14,7 +14,8 @@ This project implements a maze navigation game inspired by Pac-Man, where Pac-Ma
 To run this code, you need Python and the `pyamaze` package. Install it using:
 
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
+```
 
 
 ## Usage
@@ -23,6 +24,7 @@ pip install requirements.txt
 
    ```python
    python pacman_maze.py
+   ```
 
 ## Code Structure
 - **aStar Function**: Implements the A* search algorithm to calculate the shortest path from Pac-Man’s current position to each goal position.
